@@ -4,10 +4,6 @@
 .q5__horizontal__box {
   text-align: center;
 }
-.box--txt--align {
-  display: inline-block;
-  text-align: center;
-}
 .box--txt--blue {
   display: inline-block;
   text-align: center;
@@ -15,9 +11,7 @@
   width: 90px;
   padding: 10px 0;
 }
-/* 回答はここに書いてね */
 .box--margin {
-  text-align: center;
   margin: auto;
 }
 .q5__box--table {
@@ -62,3 +56,4 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* 回答はここに書いてね */
