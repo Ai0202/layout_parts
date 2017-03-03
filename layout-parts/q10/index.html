@@ -38,6 +38,49 @@
         -->
         <!-- 回答はここに書いてね -->
 
+        <form class="form" action="" method="get">
+            <div class="form__title">
+                <h2 class="form__title__txt">Form Exercise</h2>
+            </div>
+            <div class="form__items clearfix">
+                <div class="form__items__main">
+                    <ul>
+                        <li class="clearfix">
+                            <p class="form__items__title">name<span class="is-required"> *</span></p>
+                            <input type="text" required class="form__items__content form--init form__items__main__name" name="txt">
+                        </li>
+                        <li class="clearfix">
+                            <p class="form__items__title">Sex</p>
+                            <div class="form__items__main__radio">
+                                <label class="form__items__main__radio__label">
+                                    <input type="radio" name="sex" value="male" class="form__items__main__radio__btn">
+                                    <span class="form__items__main__radio__txt">male</span>
+                                </label>
+                                <label class="form__items__main__radio__label">
+                                    <input type="radio" name="sex" value="female" class="form__items__main__radio__btn">
+                                    <span class="form__items__main__radio__txt">female</span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <p class="form__items__title">Email<span class="is-required"> *</span></p>
+                            <input type="mail" name="mail" required placeholder="ex) hoge@gmail.com" class="form__items__content form--init form__items__main__mail">
+                        </li>
+                        <li class="clearfix">
+                            <p class="form__items__title">Telephone</p>
+                            <input type="text" name="tel" placeholder="ex) 08012345678" class="form__items__content form--init form__items__main__tel">
+                        </li>
+                    </ul>
+                    <div class="clearfix">
+                        <input type="submit" value="submit" class="form__items__content form__items__main__btn form--init">
+                    </div>
+                </div>
+                <div class="form__items__sub">
+                    <textarea name="msg" placeholder="Please fill in the message..." class="form__items__sub__txt form--init"></textarea>
+                </div>
+            </div>
+        </form>
+
         <!-- 回答はここに書いてね -->
     </div>
 </div>
